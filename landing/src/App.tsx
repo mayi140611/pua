@@ -380,7 +380,7 @@ export default function App() {
                 Telegram
               </a>
               <a href="https://discord.gg/EcyB3FzJND" target="_blank" rel="noopener noreferrer">Discord</a>
-              <a href="https://x.com/xsser_w" target="_blank" rel="noopener noreferrer">Twitter/X</a>
+              <a href="https://x.com/VeryLuckyManHa" target="_blank" rel="noopener noreferrer">Twitter/X</a>
               <a href="https://github.com/tanweai/pua" target="_blank" rel="noopener noreferrer">GitHub</a>
             </div>
           </div>
@@ -906,7 +906,7 @@ export default function App() {
             Telegram
           </a>
           <a href="https://discord.gg/EcyB3FzJND" target="_blank" rel="noopener noreferrer">Discord</a>
-          <a href="https://x.com/xsser_w" target="_blank" rel="noopener noreferrer">Twitter/X</a>
+          <a href="https://x.com/VeryLuckyManHa" target="_blank" rel="noopener noreferrer">Twitter/X</a>
           <a href="https://github.com/tanweai/pua" target="_blank" rel="noopener noreferrer">GitHub</a>
         </p>
         <p style={{ marginTop: "0.5rem", fontSize: "0.8rem" }}>MIT License</p>
