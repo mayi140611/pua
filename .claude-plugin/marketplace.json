@@ -9,7 +9,7 @@
         {
             "name": "pua",
             "description": "PUA 我们不养闲 Agent — 5 modular skills, 13 corporate flavors, L0-L4 pressure escalation, self-evolution tracking. v1→v2: token cost -77%, progressive disclosure, behavioral Gotchas.",
-            "version": "2.5.0",
+            "version": "2.6.0",
             "source": "./",
             "author": {
                 "name": "探微安全实验室",
