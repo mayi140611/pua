@@ -15,10 +15,9 @@ export const onRequest: PagesFunction<Env> = async ({ request, env }) => {
   }
 
   // POST: save feedback
-  // Workaround: openpua.ai custom domain rewrites POST→GET, so also check Content-Type
-  const isPost = request.method === "POST" ||
-    (request.headers.get("content-type")?.includes("application/json") && request.body !== null)
-  if (isPost) {
+  // Workaround: openpua.ai custom domain rewrites POST→GET but preserves body+headers
+  const hasJsonBody = request.headers.get("content-type")?.includes("application/json")
+  if (request.method === "POST" || hasJsonBody) {
     try {
       const body = (await request.json()) as {
         rating?: string
